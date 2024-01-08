@@ -1,12 +1,27 @@
 /* GLOBAL */
 @import "./global/variables.scss";
-@import "./global/global.scss";
 @import "./global/fonts.scss";
+@import "./global/global.scss";
+@import "./global/mixins.scss";
+@import "./global/visually-hidden.scss";
+@import "./global/common.scss";
 
 /* BLOCKS */
+@import "./blocks/page.scss";
 @import "./blocks/header.scss";
+@import "./blocks/main-header.scss";
+@import "./blocks/main-nav.scss";
+@import "./blocks/main-container.scss";
+@import "./blocks/hero.scss";
+@import "./blocks/equipment.scss";
+@import "./blocks/about-working.scss";
+@import "./blocks/demonstration.scss";
+@import "./blocks/contacts-map.scss";
+@import "./blocks/main-footer.scss";
+@import "./blocks/socials.scss";
+@import "./blocks/catalog-container.scss";
+@import "./blocks/extra-catalog.scss";
+@import "./blocks/map.scss";
+@import "./blocks/form-container.scss";
+@import "./blocks/date.scss";
 
-
-.main-header{
-  background-color: red;
-}
