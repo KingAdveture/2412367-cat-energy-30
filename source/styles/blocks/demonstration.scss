@@ -1,0 +1,21 @@
+.demonstration__title {
+  @include title-1();
+}
+
+.demonstration__text {
+  @include text-lato();
+}
+
+.demonstration__items {
+  & span {
+    @include font-text($size-20, 20px, 400);
+  }
+  & p {
+    @include font-text($size-14, 14px, 400);
+    color: $color-text-4;
+  }
+}
+
+.demonstration__price {
+  @include font-text($size-20, 20px, 400);
+}

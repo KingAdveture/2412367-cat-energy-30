@@ -1,3 +1,4 @@
 .main-nav__link {
   @include link();
+  @include font-text($size-20, 30px, 400);
 }

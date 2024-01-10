@@ -1,0 +1,10 @@
+.button {
+  @include font-text($size-16, 20px, 400);
+  background-color: $bg-color-green;
+  color: $color-text-F;
+  font-family: $oswalt-font;
+}
+
+.hero__button,.form-program__button {
+  @include font-text($size-20, 26px, 400);
+}

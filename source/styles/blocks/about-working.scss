@@ -1,0 +1,8 @@
+.about-working__title {
+  @include title-1();
+}
+
+.about-working__item {
+  @include text-lato();
+  list-style: none;
+}

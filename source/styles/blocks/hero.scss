@@ -1,0 +1,7 @@
+.hero__title {
+  @include title-1();
+}
+
+.hero__text {
+  @include font-text($size-20, 20px, 400);
+}

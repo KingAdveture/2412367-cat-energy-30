@@ -1,0 +1,14 @@
+.equipment__title {
+  @include font-text($size-36, 36px, 400);
+}
+
+.equipment__text {
+  @include text-lato();
+  color: $color-text-0;
+}
+
+.equipment__link {
+  @include font-text($size-20, 30px, 400);
+  color: $color-text-0;
+  text-decoration: none;
+}

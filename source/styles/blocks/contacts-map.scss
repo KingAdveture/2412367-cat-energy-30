@@ -1,0 +1,12 @@
+.contacts-map__invitation {
+  color: $color-text-4;
+  & p {
+  @include font-text($size-20, 26px, 400);
+  color: $color-text-1;
+  }
+}
+
+.contacts-map__position-address {
+  font-style: normal;
+  @include font-text($size-16, 20px, 400);
+}

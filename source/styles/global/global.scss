@@ -7,6 +7,9 @@
 }
 
 body {
-  font-family: "Oswalt", sans-serif;
+  font-family: $oswalt-font;
+  color: $color-text-0;
+  font-size: $size-16;
+  line-height: 24px;
 }
 
